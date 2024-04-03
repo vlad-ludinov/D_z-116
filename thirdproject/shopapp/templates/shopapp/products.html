@@ -1,0 +1,28 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}{{ client.name }}'s Products{% endblock %}
+
+{% block content %}
+    <div>
+        <ul>
+            {% for filter in filters %}
+            <li>
+                <a href="{% url 'products' client.id filter %}">{{ filter }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div>
+        {% for product in products %}
+            <div>
+                {{ product.name }}
+            </div>
+            <table>
+                <tr><td>price</td><td>{{ product.price }}</td></tr>
+                <tr><td>quantity</td><td>{{ product.quantity }}</td></tr>
+                <tr><td>date</td><td>{{ product.date }}</td></tr>
+                <tr><td>description</td><td>{{ product.description }}</td></tr>
+            </table>
+        {% endfor %}
+    </div>
+{% endblock %}

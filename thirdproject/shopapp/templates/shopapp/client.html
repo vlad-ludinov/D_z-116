@@ -1,0 +1,28 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}{{ client.name }}{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="client__container">
+            <div class="client__container2">
+                <div class="client__name">
+                    {{ client.name }}
+                </div>
+                <div class="client__email">
+                    {{ client.email }}
+                </div>
+            </div>
+        </div>
+        <div class="filter__container1">
+                {% for filter in filters %}
+                <div class="filter__client">
+                    <a class="button__client" href="{% url 'products' client.id filter %}">{{ filter }}</a>
+                </div>
+                <div class="text__client">
+                    text
+                </div>
+                {% endfor %}
+        </div>
+    </div>
+{% endblock %}

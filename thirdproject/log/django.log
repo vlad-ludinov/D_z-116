@@ -1,0 +1,584 @@
+INFO 2024-04-03 19:11:24,271 autoreload 21004 64816 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:13:35,689 log 21004 81948 Internal Server Error: /client/40/week
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 41, in products
+    return render(request, "shopapp/products", {"filters": filters, "products": product_list_unique, "client": client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shopapp/products
+ERROR 2024-04-03 19:13:35,694 basehttp 21004 81948 "GET //client/40/week HTTP/1.1" 500 84605
+WARNING 2024-04-03 19:13:35,908 log 21004 81948 Not Found: /favicon.ico
+WARNING 2024-04-03 19:13:35,910 basehttp 21004 81948 "GET /favicon.ico HTTP/1.1" 404 2517
+INFO 2024-04-03 19:15:26,595 autoreload 21004 64816 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:15:27,485 autoreload 60492 30968 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:15:32,213 log 60492 53596 Internal Server Error: /client/40/week
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 41, in products
+    return render(request, "shopapp/products.html", {"filters": filters, "products": product_list_unique, "client": client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-03 19:15:32,219 basehttp 60492 53596 "GET //client/40/week HTTP/1.1" 500 137936
+INFO 2024-04-03 19:20:11,614 autoreload 84904 784 Watching for file changes with StatReloader
+INFO 2024-04-03 19:20:17,560 basehttp 84904 75832 "GET //client/40/week HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:19,403 basehttp 84904 75832 "GET /client/40/month HTTP/1.1" 200 428
+INFO 2024-04-03 19:20:20,367 basehttp 84904 75832 "GET /client/40/week HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:20,986 basehttp 84904 75832 "GET /client/40/month HTTP/1.1" 200 428
+INFO 2024-04-03 19:20:21,553 basehttp 84904 75832 "GET /client/40/year HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:22,252 basehttp 84904 75832 "GET /client/40/week HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:22,666 basehttp 84904 75832 "GET /client/40/year HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:23,098 basehttp 84904 75832 "GET /client/40/week HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:23,464 basehttp 84904 75832 "GET /client/40/year HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:23,852 basehttp 84904 75832 "GET /client/40/week HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:24,207 basehttp 84904 75832 "GET /client/40/year HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:24,542 basehttp 84904 75832 "GET /client/40/week HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:24,908 basehttp 84904 75832 "GET /client/40/year HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:25,236 basehttp 84904 75832 "GET /client/40/week HTTP/1.1" 200 430
+INFO 2024-04-03 19:20:25,568 basehttp 84904 2700 "GET /client/40/year HTTP/1.1" 200 430
+INFO 2024-04-03 19:45:51,638 autoreload 82448 38396 Watching for file changes with StatReloader
+INFO 2024-04-03 19:45:55,053 basehttp 82448 70392 "GET /client/54/year HTTP/1.1" 200 431
+INFO 2024-04-03 19:45:57,554 basehttp 82448 70392 "GET /client/54/week HTTP/1.1" 200 431
+INFO 2024-04-03 19:45:58,462 basehttp 82448 25564 "GET /client/54/month HTTP/1.1" 200 429
+INFO 2024-04-03 19:45:59,184 basehttp 82448 25564 "GET /client/54/week HTTP/1.1" 200 431
+INFO 2024-04-03 19:47:03,852 autoreload 82448 38396 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:47:04,853 autoreload 86880 73416 Watching for file changes with StatReloader
+INFO 2024-04-03 19:47:07,852 basehttp 86880 44424 "GET /client/54/week HTTP/1.1" 200 431
+INFO 2024-04-03 19:47:32,468 autoreload 86880 73416 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:47:33,111 autoreload 26280 31276 Watching for file changes with StatReloader
+INFO 2024-04-03 19:47:37,212 basehttp 26280 26468 "GET /client/54/week HTTP/1.1" 200 431
+INFO 2024-04-03 19:47:59,731 autoreload 26280 31276 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:48:00,376 autoreload 68356 84932 Watching for file changes with StatReloader
+INFO 2024-04-03 19:48:03,687 basehttp 68356 87784 "GET /client/54/week HTTP/1.1" 200 431
+INFO 2024-04-03 19:48:18,729 autoreload 68356 84932 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:48:19,323 autoreload 61344 33308 Watching for file changes with StatReloader
+INFO 2024-04-03 19:48:19,497 basehttp 61344 84712 "GET /client/54/week HTTP/1.1" 200 431
+INFO 2024-04-03 19:48:57,110 autoreload 61344 33308 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:48:57,738 autoreload 77548 84076 Watching for file changes with StatReloader
+INFO 2024-04-03 19:49:00,326 basehttp 77548 48536 "GET /client/54/week HTTP/1.1" 200 431
+INFO 2024-04-03 19:49:31,610 autoreload 77548 84076 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:49:32,260 autoreload 67960 37988 Watching for file changes with StatReloader
+INFO 2024-04-03 19:49:35,440 basehttp 67960 60896 "GET /client/54/week HTTP/1.1" 200 739
+INFO 2024-04-03 19:52:24,329 autoreload 66312 88496 Watching for file changes with StatReloader
+INFO 2024-04-03 19:52:29,575 basehttp 66312 86340 "GET /client/54/week HTTP/1.1" 200 1515
+INFO 2024-04-03 19:54:21,074 autoreload 66312 88496 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:54:22,001 autoreload 68200 6656 Watching for file changes with StatReloader
+INFO 2024-04-03 19:54:26,309 basehttp 68200 46888 "GET /client/54/week HTTP/1.1" 200 431
+INFO 2024-04-03 19:54:59,065 autoreload 68200 6656 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:54:59,752 autoreload 87532 90008 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:55:03,201 log 87532 43544 Internal Server Error: /client/54/week
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 46, in products
+    print(product.name)
+          ^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2024-04-03 19:55:03,203 basehttp 87532 43544 "GET /client/54/week HTTP/1.1" 500 72135
+INFO 2024-04-03 19:59:36,107 autoreload 87532 90008 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:59:36,923 autoreload 77716 47652 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:59:43,033 log 77716 88912 Internal Server Error: /client/54/week
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 37, in products
+    products = order.product.object.all()
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyRelatedManager' object has no attribute 'object'
+ERROR 2024-04-03 19:59:43,035 basehttp 77716 88912 "GET /client/54/week HTTP/1.1" 500 68761
+INFO 2024-04-03 19:59:55,239 autoreload 77716 47652 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 19:59:55,872 autoreload 84480 32108 Watching for file changes with StatReloader
+INFO 2024-04-03 20:03:52,769 autoreload 84480 32108 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:03:53,703 autoreload 45228 14988 Watching for file changes with StatReloader
+ERROR 2024-04-03 20:03:57,972 log 45228 67840 Internal Server Error: /client/54/week
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 37, in products
+    products = order.product.select().all()
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyRelatedManager' object has no attribute 'select'
+ERROR 2024-04-03 20:03:57,975 basehttp 45228 67840 "GET /client/54/week HTTP/1.1" 500 68765
+INFO 2024-04-03 20:05:53,830 autoreload 45228 14988 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:05:54,881 autoreload 13292 81668 Watching for file changes with StatReloader
+INFO 2024-04-03 20:07:18,200 autoreload 13292 81668 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:07:19,046 autoreload 13328 26492 Watching for file changes with StatReloader
+INFO 2024-04-03 20:07:25,021 autoreload 79532 62288 Watching for file changes with StatReloader
+INFO 2024-04-03 20:07:29,173 basehttp 79532 33896 "GET /client/54/week HTTP/1.1" 200 763
+INFO 2024-04-03 20:07:52,712 autoreload 79532 62288 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:07:53,645 autoreload 87268 18168 Watching for file changes with StatReloader
+ERROR 2024-04-03 20:08:02,776 log 87268 57992 Internal Server Error: /client/54/week
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 46, in products
+    print(product.name)
+          ^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2024-04-03 20:08:02,779 basehttp 87268 57992 "GET /client/54/week HTTP/1.1" 500 71509
+INFO 2024-04-03 20:14:48,070 autoreload 87268 18168 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:14:49,699 autoreload 13252 82852 Watching for file changes with StatReloader
+INFO 2024-04-03 20:14:53,444 basehttp 13252 18428 "GET /client/54/week HTTP/1.1" 200 4181
+INFO 2024-04-03 20:15:07,511 autoreload 13252 82852 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:15:09,235 autoreload 26604 70616 Watching for file changes with StatReloader
+INFO 2024-04-03 20:15:46,096 autoreload 26604 70616 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:15:46,923 autoreload 19200 85864 Watching for file changes with StatReloader
+INFO 2024-04-03 20:15:47,134 basehttp 19200 9824 "GET /client/54/week HTTP/1.1" 200 3657
+INFO 2024-04-03 20:22:35,997 autoreload 19200 85864 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:22:38,134 autoreload 2288 42004 Watching for file changes with StatReloader
+INFO 2024-04-03 20:27:25,885 autoreload 37864 38044 Watching for file changes with StatReloader
+INFO 2024-04-03 20:27:30,544 basehttp 37864 42828 "GET /client/54/week HTTP/1.1" 200 3736
+INFO 2024-04-03 20:27:30,702 basehttp 37864 42828 "GET /static/css/stylesheet.css HTTP/1.1" 200 35
+INFO 2024-04-03 20:31:03,261 autoreload 76976 86032 Watching for file changes with StatReloader
+INFO 2024-04-03 20:31:08,014 basehttp 76976 15540 "GET /client/54/week HTTP/1.1" 200 3736
+INFO 2024-04-03 20:31:08,118 basehttp 76976 15540 "GET /static/css/stylesheet.css HTTP/1.1" 200 34
+INFO 2024-04-03 20:32:13,150 autoreload 25060 69400 Watching for file changes with StatReloader
+INFO 2024-04-03 20:32:15,651 basehttp 25060 26100 "GET /client/54/week HTTP/1.1" 200 3736
+INFO 2024-04-03 20:32:15,726 basehttp 25060 26100 "GET /static/css/stylesheet.css HTTP/1.1" 200 29
+INFO 2024-04-03 20:34:08,982 autoreload 25060 69400 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:34:10,255 autoreload 87004 79344 Watching for file changes with StatReloader
+INFO 2024-04-03 20:34:29,475 autoreload 87004 79344 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:34:30,810 autoreload 71312 37704 Watching for file changes with StatReloader
+INFO 2024-04-03 20:34:57,626 autoreload 71312 37704 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 20:34:58,596 autoreload 70684 84788 Watching for file changes with StatReloader
+INFO 2024-04-03 20:35:02,299 basehttp 70684 37840 "GET /client/54/week HTTP/1.1" 200 3736
+INFO 2024-04-03 20:35:02,409 basehttp 70684 37840 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:05:08,798 autoreload 73716 85224 Watching for file changes with StatReloader
+INFO 2024-04-03 21:05:19,429 basehttp 73716 9336 "GET /client/74/week HTTP/1.1" 200 4094
+INFO 2024-04-03 21:05:19,527 basehttp 73716 67476 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:08:24,638 autoreload 73716 85224 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 21:08:25,544 autoreload 81656 20844 Watching for file changes with StatReloader
+INFO 2024-04-03 21:08:28,734 basehttp 81656 43928 "GET /client/74/week HTTP/1.1" 200 1588
+INFO 2024-04-03 21:08:40,138 basehttp 81656 43928 "GET /client/74/month HTTP/1.1" 200 1227
+INFO 2024-04-03 21:08:40,198 basehttp 81656 43928 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:08:41,172 basehttp 81656 43928 "GET /client/74/year HTTP/1.1" 200 872
+INFO 2024-04-03 21:09:30,509 autoreload 81656 20844 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 21:09:31,119 autoreload 86584 74588 Watching for file changes with StatReloader
+INFO 2024-04-03 21:09:34,277 basehttp 86584 18856 "GET /client/74/year HTTP/1.1" 200 3732
+INFO 2024-04-03 21:09:43,864 basehttp 86584 47784 "GET /client/74/month HTTP/1.1" 200 3373
+INFO 2024-04-03 21:09:48,230 basehttp 86584 47784 "GET /client/74/week HTTP/1.1" 200 3016
+INFO 2024-04-03 21:11:57,034 autoreload 86584 74588 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 21:11:57,890 autoreload 89548 75192 Watching for file changes with StatReloader
+INFO 2024-04-03 21:12:01,475 basehttp 89548 61776 "GET /client/74/week HTTP/1.1" 200 3113
+INFO 2024-04-03 21:12:03,638 basehttp 89548 61776 "GET /client/74/all HTTP/1.1" 200 609
+INFO 2024-04-03 21:14:12,617 autoreload 89548 75192 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 21:14:13,810 autoreload 75960 56468 Watching for file changes with StatReloader
+ERROR 2024-04-03 21:14:16,838 log 75960 45536 Internal Server Error: /client/74/all
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 44, in products
+    for product in order.product.filter.all():
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'all'
+ERROR 2024-04-03 21:14:16,840 basehttp 75960 45536 "GET /client/74/all HTTP/1.1" 500 68913
+INFO 2024-04-03 21:14:32,197 autoreload 75960 56468 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-03 21:14:33,424 autoreload 4932 69188 Watching for file changes with StatReloader
+INFO 2024-04-03 21:14:36,186 basehttp 4932 89824 "GET /client/74/all HTTP/1.1" 200 4193
+INFO 2024-04-03 21:14:36,223 basehttp 4932 89824 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:14:39,919 basehttp 4932 89824 "GET /client/74/week HTTP/1.1" 200 3113
+INFO 2024-04-03 21:15:48,854 basehttp 4932 86880 "GET /client/74 HTTP/1.1" 200 791
+INFO 2024-04-03 21:17:21,147 basehttp 4932 87688 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:17:56,808 basehttp 4932 20180 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:18:19,884 autoreload 48728 87560 Watching for file changes with StatReloader
+INFO 2024-04-03 21:18:22,820 basehttp 48728 34552 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:18:55,895 basehttp 48728 33688 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:18:56,012 basehttp 48728 33688 "GET /static/css/stylesheet.css HTTP/1.1" 200 162
+INFO 2024-04-03 21:19:09,871 basehttp 48728 63368 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:19:09,901 basehttp 48728 63368 "GET /static/css/stylesheet.css HTTP/1.1" 200 162
+INFO 2024-04-03 21:20:44,385 basehttp 48728 6008 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:20:44,426 basehttp 48728 6008 "GET /static/css/stylesheet.css HTTP/1.1" 200 213
+INFO 2024-04-03 21:21:32,946 basehttp 48728 64580 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:21:32,980 basehttp 48728 64580 "GET /static/css/stylesheet.css HTTP/1.1" 200 231
+INFO 2024-04-03 21:21:49,939 basehttp 48728 28000 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:21:49,981 basehttp 48728 28000 "GET /static/css/stylesheet.css HTTP/1.1" 200 236
+INFO 2024-04-03 21:22:05,935 autoreload 70300 89832 Watching for file changes with StatReloader
+INFO 2024-04-03 21:22:09,158 basehttp 70300 54912 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:22:09,196 basehttp 70300 54912 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:22:12,110 basehttp 70300 81320 "GET /client/74/week HTTP/1.1" 200 3113
+INFO 2024-04-03 21:22:12,159 basehttp 70300 81320 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:22:16,473 basehttp 70300 81320 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:22:16,516 basehttp 70300 81320 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:22:39,177 basehttp 70300 55304 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:22:39,253 basehttp 70300 55304 "GET /static/css/stylesheet.css HTTP/1.1" 200 259
+INFO 2024-04-03 21:22:40,681 basehttp 70300 55304 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:22:40,707 basehttp 70300 55304 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:22:49,606 basehttp 70300 10736 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:22:49,631 basehttp 70300 10736 "GET /static/css/stylesheet.css HTTP/1.1" 200 254
+INFO 2024-04-03 21:22:51,107 basehttp 70300 10736 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:22:51,134 basehttp 70300 10736 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:23:00,888 basehttp 70300 7900 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:23:00,912 basehttp 70300 7900 "GET /static/css/stylesheet.css HTTP/1.1" 200 257
+INFO 2024-04-03 21:23:01,947 basehttp 70300 7900 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:23:01,978 basehttp 70300 7900 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:23:17,544 basehttp 70300 86624 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:23:17,569 basehttp 70300 86624 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:23:25,055 basehttp 70300 76200 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:23:25,083 basehttp 70300 76200 "GET /static/css/stylesheet.css HTTP/1.1" 200 257
+INFO 2024-04-03 21:23:37,595 autoreload 88952 85008 Watching for file changes with StatReloader
+INFO 2024-04-03 21:23:41,851 basehttp 88952 23248 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:23:41,878 basehttp 88952 23248 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:23:43,379 basehttp 88952 23248 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:23:43,411 basehttp 88952 23248 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:23:51,297 basehttp 88952 87460 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:23:51,379 basehttp 88952 87460 "GET /static/css/stylesheet.css HTTP/1.1" 200 257
+INFO 2024-04-03 21:24:06,831 basehttp 88952 10288 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:24:06,853 basehttp 88952 10288 "GET /static/css/stylesheet.css HTTP/1.1" 200 254
+INFO 2024-04-03 21:24:26,986 basehttp 88952 46860 "GET /client/74 HTTP/1.1" 200 816
+INFO 2024-04-03 21:24:27,024 basehttp 88952 46860 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:24:28,135 basehttp 88952 46860 "GET /client/74 HTTP/1.1" 200 817
+INFO 2024-04-03 21:24:46,415 basehttp 88952 18188 "GET /client/74 HTTP/1.1" 200 817
+INFO 2024-04-03 21:24:46,452 basehttp 88952 18188 "GET /static/css/stylesheet.css HTTP/1.1" 200 231
+INFO 2024-04-03 21:25:04,561 basehttp 88952 17292 "GET /client/74 HTTP/1.1" 200 817
+INFO 2024-04-03 21:25:04,604 basehttp 88952 17292 "GET /static/css/stylesheet.css HTTP/1.1" 200 307
+INFO 2024-04-03 21:25:30,519 basehttp 88952 71504 "GET /client/74 HTTP/1.1" 200 817
+INFO 2024-04-03 21:25:30,546 basehttp 88952 71504 "GET /static/css/stylesheet.css HTTP/1.1" 200 327
+INFO 2024-04-03 21:27:45,233 basehttp 88952 3632 "GET /client/74 HTTP/1.1" 200 972
+INFO 2024-04-03 21:27:45,297 basehttp 88952 3632 "GET /static/css/stylesheet.css HTTP/1.1" 200 420
+INFO 2024-04-03 21:27:46,645 basehttp 88952 3632 "GET /client/74 HTTP/1.1" 200 972
+INFO 2024-04-03 21:27:46,673 basehttp 88952 3632 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:28:30,404 basehttp 88952 88916 "GET /client/74 HTTP/1.1" 200 972
+INFO 2024-04-03 21:28:30,438 basehttp 88952 88916 "GET /static/css/stylesheet.css HTTP/1.1" 200 483
+INFO 2024-04-03 21:28:41,116 basehttp 88952 88916 "GET /client/74 HTTP/1.1" 200 972
+INFO 2024-04-03 21:28:41,146 basehttp 88952 88916 "GET /static/css/stylesheet.css HTTP/1.1" 200 483
+INFO 2024-04-03 21:30:41,132 basehttp 88952 80132 "GET /client/74 HTTP/1.1" 200 972
+INFO 2024-04-03 21:30:41,164 basehttp 88952 80132 "GET /static/css/stylesheet.css HTTP/1.1" 200 533
+INFO 2024-04-03 21:30:59,964 basehttp 88952 65072 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:30:59,997 basehttp 88952 65072 "GET /static/css/stylesheet.css HTTP/1.1" 200 558
+INFO 2024-04-03 21:31:16,483 basehttp 88952 87612 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:31:16,516 basehttp 88952 87612 "GET /static/css/stylesheet.css HTTP/1.1" 200 574
+INFO 2024-04-03 21:31:25,660 basehttp 88952 87796 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:31:25,693 basehttp 88952 87796 "GET /static/css/stylesheet.css HTTP/1.1" 200 577
+INFO 2024-04-03 21:31:37,260 basehttp 88952 83524 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:31:37,291 basehttp 88952 83524 "GET /static/css/stylesheet.css HTTP/1.1" 200 575
+INFO 2024-04-03 21:31:52,225 basehttp 88952 65808 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:31:52,259 basehttp 88952 65808 "GET /static/css/stylesheet.css HTTP/1.1" 200 575
+INFO 2024-04-03 21:32:01,566 basehttp 88952 65808 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:32:01,595 basehttp 88952 65808 "GET /static/css/stylesheet.css HTTP/1.1" 200 575
+INFO 2024-04-03 21:32:35,457 basehttp 88952 81508 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:32:35,483 basehttp 88952 81508 "GET /static/css/stylesheet.css HTTP/1.1" 200 600
+INFO 2024-04-03 21:33:05,457 basehttp 88952 83428 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:33:05,489 basehttp 88952 83428 "GET /static/css/stylesheet.css HTTP/1.1" 200 617
+INFO 2024-04-03 21:33:30,894 basehttp 88952 61104 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:33:30,926 basehttp 88952 61104 "GET /static/css/stylesheet.css HTTP/1.1" 200 693
+INFO 2024-04-03 21:35:11,475 basehttp 88952 16984 "GET /client/74 HTTP/1.1" 200 998
+INFO 2024-04-03 21:35:11,522 basehttp 88952 16984 "GET /static/css/stylesheet.css HTTP/1.1" 200 725
+INFO 2024-04-03 21:35:23,207 basehttp 88952 8980 "GET /client/74 HTTP/1.1" 200 1090
+INFO 2024-04-03 21:35:23,232 basehttp 88952 8980 "GET /static/css/stylesheet.css HTTP/1.1" 200 717
+INFO 2024-04-03 21:35:32,914 basehttp 88952 81076 "GET /client/74 HTTP/1.1" 200 1091
+INFO 2024-04-03 21:35:32,945 basehttp 88952 81076 "GET /static/css/stylesheet.css HTTP/1.1" 200 718
+INFO 2024-04-03 21:36:01,955 basehttp 88952 16160 "GET /client/74 HTTP/1.1" 200 1091
+INFO 2024-04-03 21:36:01,985 basehttp 88952 16160 "GET /static/css/stylesheet.css HTTP/1.1" 200 743
+INFO 2024-04-03 21:36:25,872 basehttp 88952 60116 "GET /client/74 HTTP/1.1" 200 1091
+INFO 2024-04-03 21:36:25,907 basehttp 88952 60116 "GET /static/css/stylesheet.css HTTP/1.1" 200 767
+INFO 2024-04-03 21:37:01,733 basehttp 88952 21824 "GET /client/74 HTTP/1.1" 200 1091
+INFO 2024-04-03 21:37:01,761 basehttp 88952 21824 "GET /static/css/stylesheet.css HTTP/1.1" 200 761
+INFO 2024-04-03 21:47:44,780 basehttp 88952 18384 "GET /client/74 HTTP/1.1" 200 1091
+INFO 2024-04-03 21:47:44,846 basehttp 88952 18384 "GET /static/css/stylesheet.css HTTP/1.1" 200 787
+INFO 2024-04-03 21:50:26,219 basehttp 88952 32124 "GET /client/74 HTTP/1.1" 200 1131
+INFO 2024-04-03 21:50:26,262 basehttp 88952 32124 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:51:11,566 basehttp 88952 47552 "GET /client/74 HTTP/1.1" 200 1104
+INFO 2024-04-03 21:51:11,601 basehttp 88952 47552 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:52:04,020 basehttp 88952 10412 "GET /client/74 HTTP/1.1" 200 1196
+INFO 2024-04-03 21:52:04,055 basehttp 88952 10412 "GET /static/css/stylesheet.css HTTP/1.1" 200 722
+INFO 2024-04-03 21:52:24,272 basehttp 88952 70908 "GET /client/74 HTTP/1.1" 200 1196
+INFO 2024-04-03 21:52:24,299 basehttp 88952 70908 "GET /static/css/stylesheet.css HTTP/1.1" 200 767
+INFO 2024-04-03 21:52:32,601 basehttp 88952 86060 "GET /client/74 HTTP/1.1" 200 1196
+INFO 2024-04-03 21:52:32,672 basehttp 88952 86060 "GET /static/css/stylesheet.css HTTP/1.1" 200 702
+INFO 2024-04-03 21:53:20,717 basehttp 88952 88052 "GET /client/74 HTTP/1.1" 200 1252
+INFO 2024-04-03 21:53:20,760 basehttp 88952 88052 "GET /static/css/stylesheet.css HTTP/1.1" 200 796
+INFO 2024-04-03 21:55:24,164 basehttp 88952 22220 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:55:24,205 basehttp 88952 22220 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:55:25,557 basehttp 88952 22220 "GET /client/74/year HTTP/1.1" 200 3829
+INFO 2024-04-03 21:55:31,792 basehttp 88952 3600 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:55:56,051 basehttp 88952 85160 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:55:56,083 basehttp 88952 85160 "GET /static/css/stylesheet.css HTTP/1.1" 200 829
+INFO 2024-04-03 21:56:23,728 basehttp 88952 56616 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:56:23,772 basehttp 88952 56616 "GET /static/css/stylesheet.css HTTP/1.1" 200 828
+INFO 2024-04-03 21:56:31,531 basehttp 88952 44844 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:56:31,558 basehttp 88952 44844 "GET /static/css/stylesheet.css HTTP/1.1" 200 825
+INFO 2024-04-03 21:56:59,408 basehttp 88952 86160 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:56:59,443 basehttp 88952 86160 "GET /static/css/stylesheet.css HTTP/1.1" 200 829
+INFO 2024-04-03 21:57:20,516 basehttp 88952 42232 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:57:20,548 basehttp 88952 42232 "GET /static/css/stylesheet.css HTTP/1.1" 200 849
+INFO 2024-04-03 21:58:40,036 basehttp 88952 77632 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:58:40,082 basehttp 88952 77632 "GET /static/css/stylesheet.css HTTP/1.1" 200 824
+INFO 2024-04-03 21:59:00,483 basehttp 88952 68860 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:59:00,534 basehttp 88952 68860 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 21:59:17,703 basehttp 88952 3796 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:59:17,753 basehttp 88952 3796 "GET /static/css/stylesheet.css HTTP/1.1" 200 824
+INFO 2024-04-03 21:59:49,737 basehttp 88952 59964 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 21:59:49,762 basehttp 88952 59964 "GET /static/css/stylesheet.css HTTP/1.1" 200 849
+INFO 2024-04-03 22:00:27,187 basehttp 88952 61428 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:00:27,264 basehttp 88952 61428 "GET /static/css/stylesheet.css HTTP/1.1" 200 843
+INFO 2024-04-03 22:03:32,676 basehttp 88952 3844 "GET /client/74 HTTP/1.1" 200 1408
+INFO 2024-04-03 22:03:32,716 basehttp 88952 3844 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:03:35,356 basehttp 88952 3300 "GET /client/74/all HTTP/1.1" 200 4193
+INFO 2024-04-03 22:03:43,706 basehttp 88952 3300 "GET /client/74 HTTP/1.1" 200 1408
+INFO 2024-04-03 22:06:08,081 basehttp 88952 58620 "GET /client/74/week HTTP/1.1" 200 3113
+INFO 2024-04-03 22:06:08,168 basehttp 88952 58620 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:06:47,577 basehttp 88952 7120 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:06:47,613 basehttp 88952 7120 "GET /static/css/stylesheet.css HTTP/1.1" 200 868
+INFO 2024-04-03 22:06:50,604 basehttp 88952 17684 "GET /client/74/all HTTP/1.1" 200 4193
+INFO 2024-04-03 22:06:50,646 basehttp 88952 17684 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:06:53,455 basehttp 88952 17684 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:06:53,793 basehttp 88952 17684 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:07:36,060 basehttp 88952 63912 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:07:36,094 basehttp 88952 63912 "GET /static/css/stylesheet.css HTTP/1.1" 200 887
+INFO 2024-04-03 22:07:50,239 basehttp 88952 21240 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:07:50,272 basehttp 88952 21240 "GET /static/css/stylesheet.css HTTP/1.1" 200 911
+INFO 2024-04-03 22:08:09,468 basehttp 88952 47096 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:08:09,497 basehttp 88952 47096 "GET /static/css/stylesheet.css HTTP/1.1" 200 936
+INFO 2024-04-03 22:08:30,085 basehttp 88952 16504 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:08:30,141 basehttp 88952 16504 "GET /static/css/stylesheet.css HTTP/1.1" 200 992
+INFO 2024-04-03 22:08:51,588 basehttp 88952 75528 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:08:51,631 basehttp 88952 75528 "GET /static/css/stylesheet.css HTTP/1.1" 200 992
+INFO 2024-04-03 22:09:18,978 basehttp 88952 18516 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:09:19,007 basehttp 88952 18516 "GET /static/css/stylesheet.css HTTP/1.1" 200 999
+INFO 2024-04-03 22:09:28,812 basehttp 88952 89428 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:09:28,848 basehttp 88952 89428 "GET /static/css/stylesheet.css HTTP/1.1" 200 1001
+INFO 2024-04-03 22:09:36,899 basehttp 88952 66692 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:09:36,931 basehttp 88952 66692 "GET /static/css/stylesheet.css HTTP/1.1" 200 994
+INFO 2024-04-03 22:09:43,032 basehttp 88952 66692 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:09:43,083 basehttp 88952 66692 "GET /static/css/stylesheet.css HTTP/1.1" 200 992
+INFO 2024-04-03 22:09:51,363 basehttp 88952 86280 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:09:51,394 basehttp 88952 86280 "GET /static/css/stylesheet.css HTTP/1.1" 200 992
+INFO 2024-04-03 22:09:57,265 basehttp 88952 86280 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:09:57,296 basehttp 88952 86280 "GET /static/css/stylesheet.css HTTP/1.1" 200 967
+INFO 2024-04-03 22:10:07,894 basehttp 88952 70208 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:10:07,923 basehttp 88952 70208 "GET /static/css/stylesheet.css HTTP/1.1" 200 971
+INFO 2024-04-03 22:11:45,698 basehttp 88952 2720 "GET /client/74 HTTP/1.1" 200 1156
+INFO 2024-04-03 22:11:45,738 basehttp 88952 2720 "GET /static/css/stylesheet.css HTTP/1.1" 200 1012
+INFO 2024-04-03 22:11:47,029 basehttp 88952 2720 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:11:47,057 basehttp 88952 2720 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:12:02,277 basehttp 88952 6220 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:12:02,323 basehttp 88952 6220 "GET /static/css/stylesheet.css HTTP/1.1" 200 1033
+INFO 2024-04-03 22:12:09,635 basehttp 88952 85472 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:12:09,664 basehttp 88952 85472 "GET /static/css/stylesheet.css HTTP/1.1" 200 1033
+INFO 2024-04-03 22:12:18,650 basehttp 88952 29864 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:12:18,679 basehttp 88952 29864 "GET /static/css/stylesheet.css HTTP/1.1" 200 1032
+INFO 2024-04-03 22:14:39,710 basehttp 88952 25584 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:14:39,748 basehttp 88952 25584 "GET /static/css/stylesheet.css HTTP/1.1" 200 1246
+INFO 2024-04-03 22:14:58,864 basehttp 88952 80116 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:14:58,902 basehttp 88952 80116 "GET /static/css/stylesheet.css HTTP/1.1" 200 1246
+INFO 2024-04-03 22:16:06,852 basehttp 88952 56516 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:16:06,886 basehttp 88952 56516 "GET /static/css/stylesheet.css HTTP/1.1" 200 1213
+INFO 2024-04-03 22:16:29,339 basehttp 88952 85568 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:16:29,365 basehttp 88952 85568 "GET /static/css/stylesheet.css HTTP/1.1" 200 1279
+INFO 2024-04-03 22:16:47,030 basehttp 88952 88884 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:16:47,060 basehttp 88952 88884 "GET /static/css/stylesheet.css HTTP/1.1" 200 1261
+INFO 2024-04-03 22:16:48,505 basehttp 88952 88884 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:16:48,546 basehttp 88952 88884 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:16:54,156 basehttp 88952 85744 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:16:54,184 basehttp 88952 85744 "GET /static/css/stylesheet.css HTTP/1.1" 200 1246
+INFO 2024-04-03 22:17:27,540 basehttp 88952 86488 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:17:27,572 basehttp 88952 86488 "GET /static/css/stylesheet.css HTTP/1.1" 200 1260
+INFO 2024-04-03 22:17:33,758 basehttp 88952 74268 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:17:33,808 basehttp 88952 74268 "GET /static/css/stylesheet.css HTTP/1.1" 200 1259
+INFO 2024-04-03 22:17:40,934 basehttp 88952 80732 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:17:40,978 basehttp 88952 80732 "GET /static/css/stylesheet.css HTTP/1.1" 200 1258
+INFO 2024-04-03 22:17:46,226 basehttp 88952 81868 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:17:46,274 basehttp 88952 81868 "GET /static/css/stylesheet.css HTTP/1.1" 200 1257
+INFO 2024-04-03 22:17:52,136 basehttp 88952 81868 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:17:52,169 basehttp 88952 81868 "GET /static/css/stylesheet.css HTTP/1.1" 200 1255
+INFO 2024-04-03 22:17:57,314 basehttp 88952 63092 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:17:57,351 basehttp 88952 63092 "GET /static/css/stylesheet.css HTTP/1.1" 200 1240
+INFO 2024-04-03 22:18:07,207 basehttp 88952 7532 "GET /client/74/all HTTP/1.1" 200 4193
+INFO 2024-04-03 22:18:07,269 basehttp 88952 7532 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:18:31,813 basehttp 88952 29072 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:18:31,853 basehttp 88952 29072 "GET /static/css/stylesheet.css HTTP/1.1" 200 1263
+INFO 2024-04-03 22:18:33,207 basehttp 88952 29072 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:18:33,244 basehttp 88952 29072 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:20:07,388 basehttp 88952 34152 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:20:07,808 basehttp 88952 34152 "GET /static/css/stylesheet.css HTTP/1.1" 200 1265
+INFO 2024-04-03 22:20:16,567 basehttp 88952 22416 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:20:16,609 basehttp 88952 22416 "GET /static/css/stylesheet.css HTTP/1.1" 200 1265
+INFO 2024-04-03 22:20:25,576 basehttp 88952 87752 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:20:25,614 basehttp 88952 87752 "GET /static/css/stylesheet.css HTTP/1.1" 200 1266
+INFO 2024-04-03 22:24:54,267 basehttp 88952 85616 "GET /client/74/all HTTP/1.1" 200 4193
+INFO 2024-04-03 22:24:54,309 basehttp 88952 85616 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:25:16,174 basehttp 88952 56128 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:25:24,560 basehttp 88952 56128 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:25:24,597 basehttp 88952 56128 "GET /static/css/stylesheet.css HTTP/1.1" 200 1289
+INFO 2024-04-03 22:25:39,612 basehttp 88952 46956 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:25:39,646 basehttp 88952 46956 "GET /static/css/stylesheet.css HTTP/1.1" 200 1290
+INFO 2024-04-03 22:26:35,258 basehttp 88952 16688 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:26:35,287 basehttp 88952 16688 "GET /static/css/stylesheet.css HTTP/1.1" 200 1318
+INFO 2024-04-03 22:27:31,258 basehttp 88952 83408 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:27:31,294 basehttp 88952 83408 "GET /static/css/stylesheet.css HTTP/1.1" 200 1344
+INFO 2024-04-03 22:27:45,785 basehttp 88952 57084 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:27:45,829 basehttp 88952 57084 "GET /static/css/stylesheet.css HTTP/1.1" 200 1344
+INFO 2024-04-03 22:29:17,672 basehttp 88952 69132 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:29:17,707 basehttp 88952 69132 "GET /static/css/stylesheet.css HTTP/1.1" 200 1364
+INFO 2024-04-03 22:30:55,299 basehttp 88952 64812 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:30:55,329 basehttp 88952 64812 "GET /static/css/stylesheet.css HTTP/1.1" 200 1369
+INFO 2024-04-03 22:31:42,370 basehttp 88952 20644 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:31:42,405 basehttp 88952 20644 "GET /static/css/stylesheet.css HTTP/1.1" 200 1395
+INFO 2024-04-03 22:33:11,485 basehttp 88952 85740 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:33:11,516 basehttp 88952 85740 "GET /static/css/stylesheet.css HTTP/1.1" 200 1420
+INFO 2024-04-03 22:33:23,205 basehttp 88952 47336 "GET /client/74 HTTP/1.1" 200 1520
+INFO 2024-04-03 22:33:23,234 basehttp 88952 47336 "GET /static/css/stylesheet.css HTTP/1.1" 200 1420
+INFO 2024-04-03 22:34:28,388 basehttp 88952 39408 "GET /client/74 HTTP/1.1" 200 1562
+INFO 2024-04-03 22:34:28,422 basehttp 88952 39408 "GET /static/css/stylesheet.css HTTP/1.1" 200 1464
+INFO 2024-04-03 22:34:29,459 basehttp 88952 39408 "GET /client/74 HTTP/1.1" 200 1562
+INFO 2024-04-03 22:34:29,490 basehttp 88952 39408 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:35:48,269 basehttp 88952 68092 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:35:48,306 basehttp 88952 68092 "GET /static/css/stylesheet.css HTTP/1.1" 200 1515
+INFO 2024-04-03 22:36:59,339 basehttp 88952 59000 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:36:59,380 basehttp 88952 59000 "GET /static/css/stylesheet.css HTTP/1.1" 200 1562
+INFO 2024-04-03 22:37:10,061 basehttp 88952 70908 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:37:10,106 basehttp 88952 70908 "GET /static/css/stylesheet.css HTTP/1.1" 200 1578
+INFO 2024-04-03 22:37:15,934 basehttp 88952 70908 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:37:15,967 basehttp 88952 70908 "GET /static/css/stylesheet.css HTTP/1.1" 200 1564
+INFO 2024-04-03 22:37:27,992 basehttp 88952 21720 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:37:28,027 basehttp 88952 21720 "GET /static/css/stylesheet.css HTTP/1.1" 200 1473
+INFO 2024-04-03 22:37:58,050 basehttp 88952 28428 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:37:58,087 basehttp 88952 28428 "GET /static/css/stylesheet.css HTTP/1.1" 200 1601
+INFO 2024-04-03 22:38:09,766 basehttp 88952 57956 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:38:09,801 basehttp 88952 57956 "GET /static/css/stylesheet.css HTTP/1.1" 200 1515
+INFO 2024-04-03 22:38:25,711 basehttp 88952 80160 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:38:25,742 basehttp 88952 80160 "GET /static/css/stylesheet.css HTTP/1.1" 200 1513
+INFO 2024-04-03 22:40:24,735 basehttp 88952 10284 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:40:24,766 basehttp 88952 10284 "GET /static/css/stylesheet.css HTTP/1.1" 200 1510
+INFO 2024-04-03 22:40:43,461 basehttp 88952 5520 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:40:43,491 basehttp 88952 5520 "GET /static/css/stylesheet.css HTTP/1.1" 200 1536
+INFO 2024-04-03 22:41:04,560 basehttp 88952 71712 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:41:04,588 basehttp 88952 71712 "GET /static/css/stylesheet.css HTTP/1.1" 200 1618
+INFO 2024-04-03 22:41:11,826 basehttp 88952 71712 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:41:11,858 basehttp 88952 71712 "GET /static/css/stylesheet.css HTTP/1.1" 200 1622
+INFO 2024-04-03 22:41:30,563 basehttp 88952 16900 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:41:30,596 basehttp 88952 16900 "GET /static/css/stylesheet.css HTTP/1.1" 200 1628
+INFO 2024-04-03 22:41:41,866 basehttp 88952 43000 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:41:41,894 basehttp 88952 43000 "GET /static/css/stylesheet.css HTTP/1.1" 200 1631
+INFO 2024-04-03 22:41:50,105 basehttp 88952 87796 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:41:50,132 basehttp 88952 87796 "GET /static/css/stylesheet.css HTTP/1.1" 200 1628
+INFO 2024-04-03 22:41:58,916 basehttp 88952 31992 "GET /client/74 HTTP/1.1" 200 1650
+INFO 2024-04-03 22:41:58,943 basehttp 88952 31992 "GET /static/css/stylesheet.css HTTP/1.1" 200 1628
+INFO 2024-04-03 22:42:11,126 basehttp 88952 12516 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:42:11,157 basehttp 88952 12516 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:42:22,695 basehttp 88952 71356 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:42:22,749 basehttp 88952 71356 "GET /static/css/stylesheet.css HTTP/1.1" 200 1603
+INFO 2024-04-03 22:42:25,142 basehttp 88952 71356 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:42:25,177 basehttp 88952 71356 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:42:41,627 basehttp 88952 79964 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:42:41,661 basehttp 88952 79964 "GET /static/css/stylesheet.css HTTP/1.1" 200 1629
+INFO 2024-04-03 22:43:00,612 basehttp 88952 22884 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:00,644 basehttp 88952 22884 "GET /static/css/stylesheet.css HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:08,344 basehttp 88952 74880 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:08,374 basehttp 88952 74880 "GET /static/css/stylesheet.css HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:18,785 basehttp 88952 78916 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:18,808 basehttp 88952 78916 "GET /static/css/stylesheet.css HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:26,538 basehttp 88952 78916 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:26,583 basehttp 88952 78916 "GET /static/css/stylesheet.css HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:34,144 basehttp 88952 46464 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:34,171 basehttp 88952 46464 "GET /static/css/stylesheet.css HTTP/1.1" 200 1650
+INFO 2024-04-03 22:43:51,405 basehttp 88952 12596 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:51,440 basehttp 88952 12596 "GET /static/css/stylesheet.css HTTP/1.1" 200 1672
+INFO 2024-04-03 22:43:57,517 basehttp 88952 65136 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:43:57,557 basehttp 88952 65136 "GET /static/css/stylesheet.css HTTP/1.1" 200 1672
+INFO 2024-04-03 22:44:04,063 basehttp 88952 65136 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:44:04,102 basehttp 88952 65136 "GET /static/css/stylesheet.css HTTP/1.1" 200 1646
+INFO 2024-04-03 22:44:20,517 basehttp 88952 89044 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:44:20,548 basehttp 88952 89044 "GET /static/css/stylesheet.css HTTP/1.1" 200 1645
+INFO 2024-04-03 22:44:35,842 basehttp 88952 40496 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:44:35,868 basehttp 88952 40496 "GET /static/css/stylesheet.css HTTP/1.1" 200 1645
+INFO 2024-04-03 22:44:46,849 basehttp 88952 69800 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:44:46,886 basehttp 88952 69800 "GET /static/css/stylesheet.css HTTP/1.1" 200 1645
+INFO 2024-04-03 22:45:50,535 basehttp 88952 19164 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:45:50,579 basehttp 88952 19164 "GET /static/css/stylesheet.css HTTP/1.1" 200 1728
+INFO 2024-04-03 22:46:05,678 basehttp 88952 21488 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:46:05,720 basehttp 88952 21488 "GET /static/css/stylesheet.css HTTP/1.1" 200 1751
+INFO 2024-04-03 22:46:29,666 basehttp 88952 15136 "GET /client/74/all HTTP/1.1" 200 4193
+INFO 2024-04-03 22:46:29,729 basehttp 88952 15136 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:48:28,391 basehttp 88952 80812 "GET /client/74 HTTP/1.1" 200 1651
+INFO 2024-04-03 22:48:28,430 basehttp 88952 80812 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:49:02,417 basehttp 88952 15776 "GET /client/74/week HTTP/1.1" 200 3113
+INFO 2024-04-03 22:49:02,523 basehttp 88952 15776 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:49:11,318 basehttp 88952 47172 "GET /client/74/all HTTP/1.1" 200 4193
+INFO 2024-04-03 22:49:19,446 basehttp 88952 47172 "GET /client/74/week HTTP/1.1" 200 3113
+INFO 2024-04-03 22:49:20,825 basehttp 88952 47172 "GET /client/74/month HTTP/1.1" 200 3470
+INFO 2024-04-03 22:49:20,868 basehttp 88952 47172 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-03 22:49:21,823 basehttp 88952 47172 "GET /client/74/year HTTP/1.1" 200 3829
+INFO 2024-04-03 22:49:24,128 basehttp 88952 47172 "GET /client/74/all HTTP/1.1" 200 4193
+INFO 2024-04-03 22:49:27,090 basehttp 88952 47172 "GET /client/74/week HTTP/1.1" 200 3113
