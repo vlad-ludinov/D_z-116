@@ -35,10 +35,8 @@ def products(request, client_id, filter):
         filters = ["all", "week", "month"]
     products_list = []
     client = Client.objects.filter(pk=client_id).first()
-    print(client)
     # orders = Order.objects.filter(Q(client=client)|Q(date__lt=date.today()-time_filter)).all() #.filter(date__lt=date.today()-time_filter).all()
     orders = Order.objects.filter(client=client).all()
-    print(orders)
     if filter == "all":
         for order in orders:
             for product in order.product.all():
@@ -49,11 +47,9 @@ def products(request, client_id, filter):
             for product in order.product.filter(date__gt=date.today()-time_filter).all():
                 products_list.append(product)
     product_list_unique = []
-    print(products_list)
     for product in products_list:
         if product not in product_list_unique:
             product_list_unique.append(product)
-    print(product_list_unique)
     return render(request, "shopapp/products.html", {"filters": filters, "products": product_list_unique, "client": client})
 
 

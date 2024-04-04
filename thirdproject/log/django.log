@@ -582,3 +582,807 @@ INFO 2024-04-03 22:49:20,868 basehttp 88952 47172 "GET /static/css/stylesheet.cs
 INFO 2024-04-03 22:49:21,823 basehttp 88952 47172 "GET /client/74/year HTTP/1.1" 200 3829
 INFO 2024-04-03 22:49:24,128 basehttp 88952 47172 "GET /client/74/all HTTP/1.1" 200 4193
 INFO 2024-04-03 22:49:27,090 basehttp 88952 47172 "GET /client/74/week HTTP/1.1" 200 3113
+INFO 2024-04-04 16:49:10,798 autoreload 47336 85988 Watching for file changes with StatReloader
+INFO 2024-04-04 16:50:48,073 autoreload 47336 85988 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\urls.py changed, reloading.
+INFO 2024-04-04 16:50:48,961 autoreload 45636 73060 Watching for file changes with StatReloader
+INFO 2024-04-04 16:50:51,304 autoreload 89068 81656 Watching for file changes with StatReloader
+INFO 2024-04-04 16:50:55,150 autoreload 13292 78572 Watching for file changes with StatReloader
+INFO 2024-04-04 16:51:11,876 basehttp 13292 81340 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:51:11,996 basehttp 13292 81340 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+WARNING 2024-04-04 16:51:12,112 log 13292 81340 Not Found: /favicon.ico
+WARNING 2024-04-04 16:51:12,113 basehttp 13292 81340 "GET /favicon.ico HTTP/1.1" 404 2535
+INFO 2024-04-04 16:51:14,390 basehttp 13292 81340 "GET /client/74/products/all HTTP/1.1" 200 4220
+INFO 2024-04-04 16:54:06,456 basehttp 13292 85932 "GET /client/74/products/all HTTP/1.1" 200 4220
+INFO 2024-04-04 16:54:08,235 basehttp 13292 85932 "GET /client/74/products/all HTTP/1.1" 200 4603
+INFO 2024-04-04 16:54:11,846 basehttp 13292 30276 "GET /client/74/products/week HTTP/1.1" 200 3523
+INFO 2024-04-04 16:55:43,187 basehttp 13292 89696 "GET /client/74/products HTTP/1.1" 200 1695
+INFO 2024-04-04 16:56:10,726 basehttp 13292 62832 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:56:22,762 basehttp 13292 21472 "GET /client/74/products HTTP/1.1" 200 1688
+INFO 2024-04-04 16:56:35,198 basehttp 13292 75712 "GET /client/74/products HTTP/1.1" 200 1695
+INFO 2024-04-04 16:56:36,134 basehttp 13292 47096 "GET /client/74/products HTTP/1.1" 200 1695
+INFO 2024-04-04 16:56:54,943 basehttp 13292 68084 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:57:15,715 basehttp 13292 45936 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:58:00,737 basehttp 13292 54812 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:58:14,071 basehttp 13292 25484 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:58:15,050 basehttp 13292 25484 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:58:53,759 basehttp 13292 64816 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:58:54,971 basehttp 13292 64816 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:59:28,943 basehttp 13292 59564 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:59:37,928 autoreload 66416 56884 Watching for file changes with StatReloader
+INFO 2024-04-04 16:59:41,205 basehttp 66416 9320 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:59:42,188 basehttp 66416 9320 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:59:45,374 basehttp 66416 9320 "GET /client/74/products/all HTTP/1.1" 200 5140
+INFO 2024-04-04 16:59:51,982 basehttp 66416 27868 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 16:59:53,534 basehttp 66416 27868 "GET /client/74/products/all HTTP/1.1" 200 5140
+INFO 2024-04-04 17:00:20,378 basehttp 66416 61472 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:00:21,680 basehttp 66416 68000 "GET /client/74/products/all HTTP/1.1" 200 5140
+INFO 2024-04-04 17:00:23,674 basehttp 66416 68000 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:00:38,506 basehttp 66416 84284 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:00:49,299 basehttp 66416 84284 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:00:50,378 basehttp 66416 84284 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:01:38,868 basehttp 66416 80828 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:01:41,166 basehttp 66416 60196 "GET /client/74/products HTTP/1.1" 200 1609
+INFO 2024-04-04 17:01:47,703 basehttp 66416 60196 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:02:20,794 basehttp 66416 83204 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:03:51,546 basehttp 66416 56676 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:03:52,580 basehttp 66416 56676 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:04:03,772 basehttp 66416 22436 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:04:04,769 basehttp 66416 22436 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:04:40,089 basehttp 66416 81420 "GET /client/74/products HTTP/1.1" 200 1687
+WARNING 2024-04-04 17:04:40,407 log 66416 81420 Not Found: /favicon.ico
+WARNING 2024-04-04 17:04:40,407 basehttp 66416 81420 "GET /favicon.ico HTTP/1.1" 404 2535
+INFO 2024-04-04 17:04:42,659 basehttp 66416 81420 "GET /client/74/products/all HTTP/1.1" 200 5140
+INFO 2024-04-04 17:04:48,633 basehttp 66416 10896 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:06:28,784 basehttp 66416 87484 "GET /client/74/products HTTP/1.1" 200 1687
+INFO 2024-04-04 17:06:28,969 basehttp 66416 87484 "GET /static/css/stylesheet.css HTTP/1.1" 200 1759
+INFO 2024-04-04 17:06:31,979 basehttp 66416 87484 "GET /client/74/products HTTP/1.1" 200 1687
+WARNING 2024-04-04 17:06:32,029 log 66416 87484 Not Found: /favicon.ico
+WARNING 2024-04-04 17:06:32,029 basehttp 66416 87484 "GET /favicon.ico HTTP/1.1" 404 2535
+INFO 2024-04-04 17:07:00,705 basehttp 66416 71440 "GET /client/74/products HTTP/1.1" 200 1695
+INFO 2024-04-04 17:07:00,749 basehttp 66416 71440 "GET /static/css/stylesheet.css HTTP/1.1" 200 1759
+INFO 2024-04-04 17:07:04,028 basehttp 66416 71440 "GET /client/74/products/all HTTP/1.1" 200 5140
+INFO 2024-04-04 17:07:04,073 basehttp 66416 71440 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:08:36,366 basehttp 66416 83780 "GET /client/74/products/all HTTP/1.1" 200 5140
+INFO 2024-04-04 17:08:36,408 basehttp 66416 83780 "GET /static/css/stylesheet.css HTTP/1.1" 200 1982
+INFO 2024-04-04 17:08:37,450 basehttp 66416 72900 "GET /client/74/products/all HTTP/1.1" 200 5168
+INFO 2024-04-04 17:08:37,479 basehttp 66416 72900 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:10:22,164 basehttp 66416 65436 "GET /client/74/products HTTP/1.1" 200 1695
+INFO 2024-04-04 17:10:22,226 basehttp 66416 65436 "GET /static/css/stylesheet.css HTTP/1.1" 200 2003
+INFO 2024-04-04 17:10:25,200 basehttp 66416 65436 "GET /client/74/products/all HTTP/1.1" 200 5195
+INFO 2024-04-04 17:10:25,239 basehttp 66416 65436 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:12:02,416 basehttp 66416 88188 "GET /client/74/products/all HTTP/1.1" 200 5223
+INFO 2024-04-04 17:12:02,449 basehttp 66416 88188 "GET /static/css/stylesheet.css HTTP/1.1" 200 2079
+INFO 2024-04-04 17:13:30,958 basehttp 66416 79128 "GET /client/74/products HTTP/1.1" 200 1695
+INFO 2024-04-04 17:13:31,010 basehttp 66416 79128 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:13:38,315 basehttp 66416 70000 "GET /client/74/products/all HTTP/1.1" 200 5208
+INFO 2024-04-04 17:15:00,162 basehttp 66416 22804 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:15:00,207 basehttp 66416 22804 "GET /static/css/stylesheet.css HTTP/1.1" 200 2089
+INFO 2024-04-04 17:15:04,593 basehttp 66416 22804 "GET /client/74/products HTTP/1.1" 200 1717
+INFO 2024-04-04 17:15:04,633 basehttp 66416 22804 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:15:06,816 basehttp 66416 22804 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:15:06,853 basehttp 66416 22804 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:15:39,230 basehttp 66416 64212 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:15:39,258 basehttp 66416 64212 "GET /static/css/stylesheet.css HTTP/1.1" 200 2233
+INFO 2024-04-04 17:15:43,491 basehttp 66416 65036 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:15:43,542 basehttp 66416 65036 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:15:55,260 basehttp 66416 75400 "GET /client/74/products HTTP/1.1" 200 1717
+INFO 2024-04-04 17:15:55,312 basehttp 66416 75400 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:16:22,496 basehttp 66416 15472 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:16:22,536 basehttp 66416 15472 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:16:44,927 basehttp 66416 22892 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:16:44,953 basehttp 66416 22892 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:16:46,059 basehttp 66416 22892 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:17:00,183 basehttp 66416 70372 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:17:00,220 basehttp 66416 70372 "GET /static/css/stylesheet.css HTTP/1.1" 200 2213
+INFO 2024-04-04 17:17:29,328 basehttp 66416 85364 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:17:29,364 basehttp 66416 85364 "GET /static/css/stylesheet.css HTTP/1.1" 200 2232
+INFO 2024-04-04 17:17:30,439 basehttp 66416 85364 "GET /client/74/products/all HTTP/1.1" 200 5246
+INFO 2024-04-04 17:17:30,468 basehttp 66416 85364 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:17:52,443 basehttp 66416 60372 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:17:52,486 basehttp 66416 60372 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:18:07,165 basehttp 66416 9464 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:18:07,195 basehttp 66416 9464 "GET /static/css/stylesheet.css HTTP/1.1" 200 2234
+INFO 2024-04-04 17:19:42,063 basehttp 66416 45452 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:19:42,097 basehttp 66416 45452 "GET /static/css/stylesheet.css HTTP/1.1" 200 2213
+INFO 2024-04-04 17:20:08,171 basehttp 66416 63092 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:20:08,200 basehttp 66416 63092 "GET /static/css/stylesheet.css HTTP/1.1" 200 2213
+INFO 2024-04-04 17:20:28,052 basehttp 66416 69764 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:20:28,083 basehttp 66416 69764 "GET /static/css/stylesheet.css HTTP/1.1" 200 2236
+INFO 2024-04-04 17:20:48,610 basehttp 66416 51720 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:20:48,641 basehttp 66416 51720 "GET /static/css/stylesheet.css HTTP/1.1" 200 2255
+INFO 2024-04-04 17:20:50,731 basehttp 66416 51720 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:20:50,759 basehttp 66416 51720 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:21:12,467 basehttp 66416 11956 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:21:12,499 basehttp 66416 11956 "GET /static/css/stylesheet.css HTTP/1.1" 200 2255
+INFO 2024-04-04 17:21:34,348 basehttp 66416 12596 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:21:34,381 basehttp 66416 12596 "GET /static/css/stylesheet.css HTTP/1.1" 200 2235
+INFO 2024-04-04 17:21:54,920 basehttp 66416 14312 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:21:54,959 basehttp 66416 14312 "GET /static/css/stylesheet.css HTTP/1.1" 200 2235
+INFO 2024-04-04 17:22:05,012 basehttp 66416 23352 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:22:05,056 basehttp 66416 23352 "GET /static/css/stylesheet.css HTTP/1.1" 200 2255
+INFO 2024-04-04 17:24:07,203 basehttp 66416 80368 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:24:07,283 basehttp 66416 80368 "GET /static/css/stylesheet.css HTTP/1.1" 200 2255
+INFO 2024-04-04 17:24:47,590 basehttp 66416 87760 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:24:47,628 basehttp 66416 87760 "GET /static/css/stylesheet.css HTTP/1.1" 200 2261
+INFO 2024-04-04 17:24:48,971 basehttp 66416 87760 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:24:49,008 basehttp 66416 87760 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:24:55,480 basehttp 66416 77464 "GET /client/74/products/month HTTP/1.1" 200 4443
+INFO 2024-04-04 17:24:55,520 basehttp 66416 77464 "GET /static/css/stylesheet.css HTTP/1.1" 200 2261
+INFO 2024-04-04 17:29:39,898 basehttp 66416 75876 "GET /client/74/products/month HTTP/1.1" 200 4798
+INFO 2024-04-04 17:29:39,937 basehttp 66416 75876 "GET /static/css/stylesheet.css HTTP/1.1" 200 2304
+INFO 2024-04-04 17:30:51,531 basehttp 66416 88448 "GET /client/74/products/month HTTP/1.1" 200 4798
+INFO 2024-04-04 17:30:51,564 basehttp 66416 88448 "GET /static/css/stylesheet.css HTTP/1.1" 200 2360
+INFO 2024-04-04 17:30:52,654 basehttp 66416 88448 "GET /client/74/products/month HTTP/1.1" 200 4798
+INFO 2024-04-04 17:30:52,683 basehttp 66416 88448 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:31:06,008 basehttp 66416 85700 "GET /client/74/products/month HTTP/1.1" 200 4798
+INFO 2024-04-04 17:31:06,039 basehttp 66416 85700 "GET /static/css/stylesheet.css HTTP/1.1" 200 2385
+INFO 2024-04-04 17:31:17,037 basehttp 66416 89244 "GET /client/74/products/month HTTP/1.1" 200 4798
+INFO 2024-04-04 17:31:17,075 basehttp 66416 89244 "GET /static/css/stylesheet.css HTTP/1.1" 200 2385
+INFO 2024-04-04 17:34:33,456 basehttp 66416 27280 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:34:33,538 basehttp 66416 27280 "GET /static/css/stylesheet.css HTTP/1.1" 200 2560
+INFO 2024-04-04 17:34:34,468 basehttp 66416 27280 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:34:34,497 basehttp 66416 27280 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:34:47,514 basehttp 66416 48172 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:34:47,547 basehttp 66416 48172 "GET /static/css/stylesheet.css HTTP/1.1" 200 2558
+INFO 2024-04-04 17:35:46,035 basehttp 66416 20696 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:35:46,079 basehttp 66416 20696 "GET /static/css/stylesheet.css HTTP/1.1" 200 2541
+INFO 2024-04-04 17:36:10,186 basehttp 66416 86300 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:36:10,219 basehttp 66416 86300 "GET /static/css/stylesheet.css HTTP/1.1" 200 2567
+INFO 2024-04-04 17:36:12,260 basehttp 66416 86300 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:36:12,289 basehttp 66416 86300 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:36:17,304 basehttp 66416 81604 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:36:17,337 basehttp 66416 81604 "GET /static/css/stylesheet.css HTTP/1.1" 200 2568
+INFO 2024-04-04 17:36:27,851 basehttp 66416 81604 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:36:27,884 basehttp 66416 81604 "GET /static/css/stylesheet.css HTTP/1.1" 200 2568
+INFO 2024-04-04 17:36:46,961 basehttp 66416 61104 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:36:46,994 basehttp 66416 61104 "GET /static/css/stylesheet.css HTTP/1.1" 200 2570
+INFO 2024-04-04 17:37:23,034 basehttp 66416 6176 "GET /client/74/products/month HTTP/1.1" 200 4920
+INFO 2024-04-04 17:37:23,067 basehttp 66416 6176 "GET /static/css/stylesheet.css HTTP/1.1" 200 2596
+INFO 2024-04-04 17:38:43,796 basehttp 66416 70484 "GET /client/74/products/month HTTP/1.1" 200 5080
+INFO 2024-04-04 17:38:43,843 basehttp 66416 70484 "GET /static/css/stylesheet.css HTTP/1.1" 200 2639
+INFO 2024-04-04 17:38:56,080 basehttp 66416 13424 "GET /client/74/products/month HTTP/1.1" 200 5080
+INFO 2024-04-04 17:38:56,113 basehttp 66416 13424 "GET /static/css/stylesheet.css HTTP/1.1" 200 2658
+INFO 2024-04-04 17:39:22,123 basehttp 66416 9448 "GET /client/74/products/month HTTP/1.1" 200 5080
+INFO 2024-04-04 17:39:22,155 basehttp 66416 9448 "GET /static/css/stylesheet.css HTTP/1.1" 200 2666
+INFO 2024-04-04 17:39:42,763 basehttp 66416 88460 "GET /client/74/products/month HTTP/1.1" 200 5080
+INFO 2024-04-04 17:39:42,791 basehttp 66416 88460 "GET /static/css/stylesheet.css HTTP/1.1" 200 2691
+INFO 2024-04-04 17:40:09,725 basehttp 66416 56516 "GET /client/74/products/month HTTP/1.1" 200 5080
+INFO 2024-04-04 17:40:09,757 basehttp 66416 56516 "GET /static/css/stylesheet.css HTTP/1.1" 200 2710
+INFO 2024-04-04 17:40:20,298 basehttp 66416 52312 "GET /client/74/products/month HTTP/1.1" 200 5080
+INFO 2024-04-04 17:40:20,327 basehttp 66416 52312 "GET /static/css/stylesheet.css HTTP/1.1" 200 2712
+INFO 2024-04-04 17:40:29,299 basehttp 66416 40592 "GET /client/74/products/month HTTP/1.1" 200 5080
+INFO 2024-04-04 17:40:29,335 basehttp 66416 40592 "GET /static/css/stylesheet.css HTTP/1.1" 200 2691
+INFO 2024-04-04 17:42:47,115 basehttp 66416 82316 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:42:47,159 basehttp 66416 82316 "GET /static/css/stylesheet.css HTTP/1.1" 200 2780
+INFO 2024-04-04 17:44:27,413 basehttp 66416 11600 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:44:27,451 basehttp 66416 11600 "GET /static/css/stylesheet.css HTTP/1.1" 200 3175
+INFO 2024-04-04 17:44:45,880 basehttp 66416 25344 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:44:45,907 basehttp 66416 25344 "GET /static/css/stylesheet.css HTTP/1.1" 200 3179
+INFO 2024-04-04 17:45:20,461 basehttp 66416 87248 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:45:20,498 basehttp 66416 87248 "GET /static/css/stylesheet.css HTTP/1.1" 200 3175
+INFO 2024-04-04 17:47:47,740 basehttp 66416 69992 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:47:47,784 basehttp 66416 69992 "GET /static/css/stylesheet.css HTTP/1.1" 200 3006
+INFO 2024-04-04 17:49:11,177 basehttp 66416 83828 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:49:11,209 basehttp 66416 83828 "GET /static/css/stylesheet.css HTTP/1.1" 200 3057
+INFO 2024-04-04 17:49:55,136 basehttp 66416 85292 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:49:55,180 basehttp 66416 85292 "GET /static/css/stylesheet.css HTTP/1.1" 200 3050
+INFO 2024-04-04 17:50:50,985 basehttp 66416 19288 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:50:51,020 basehttp 66416 19288 "GET /static/css/stylesheet.css HTTP/1.1" 200 3080
+INFO 2024-04-04 17:51:08,527 basehttp 66416 23060 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:51:08,556 basehttp 66416 23060 "GET /static/css/stylesheet.css HTTP/1.1" 200 3086
+INFO 2024-04-04 17:51:09,915 basehttp 66416 23060 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:51:09,945 basehttp 66416 23060 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:51:15,421 basehttp 66416 51632 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:51:15,454 basehttp 66416 51632 "GET /static/css/stylesheet.css HTTP/1.1" 200 3032
+INFO 2024-04-04 17:51:16,553 basehttp 66416 3844 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:51:16,583 basehttp 66416 3844 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:51:39,109 basehttp 66416 36336 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:51:39,151 basehttp 66416 36336 "GET /static/css/stylesheet.css HTTP/1.1" 200 3032
+INFO 2024-04-04 17:51:40,185 basehttp 66416 36336 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:51:54,728 basehttp 66416 9408 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:51:54,758 basehttp 66416 9408 "GET /static/css/stylesheet.css HTTP/1.1" 200 3080
+INFO 2024-04-04 17:52:27,235 basehttp 66416 77636 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:52:27,266 basehttp 66416 77636 "GET /static/css/stylesheet.css HTTP/1.1" 200 3108
+INFO 2024-04-04 17:52:55,380 basehttp 66416 58860 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:52:55,410 basehttp 66416 58860 "GET /static/css/stylesheet.css HTTP/1.1" 200 3109
+INFO 2024-04-04 17:53:33,894 basehttp 66416 71028 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:53:33,943 basehttp 66416 71028 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 17:53:43,438 basehttp 66416 45684 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:53:43,479 basehttp 66416 45684 "GET /static/css/stylesheet.css HTTP/1.1" 200 3100
+INFO 2024-04-04 17:53:52,010 basehttp 66416 45684 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:53:52,049 basehttp 66416 45684 "GET /static/css/stylesheet.css HTTP/1.1" 200 3099
+INFO 2024-04-04 17:53:57,469 basehttp 66416 45684 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:53:57,502 basehttp 66416 45684 "GET /static/css/stylesheet.css HTTP/1.1" 200 3099
+INFO 2024-04-04 17:54:03,710 basehttp 66416 45684 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:54:03,740 basehttp 66416 45684 "GET /static/css/stylesheet.css HTTP/1.1" 200 3099
+INFO 2024-04-04 17:54:11,972 basehttp 66416 45684 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:54:11,998 basehttp 66416 45684 "GET /static/css/stylesheet.css HTTP/1.1" 200 3097
+INFO 2024-04-04 17:54:20,870 basehttp 66416 45684 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:54:20,901 basehttp 66416 45684 "GET /static/css/stylesheet.css HTTP/1.1" 200 3099
+INFO 2024-04-04 17:54:26,289 basehttp 66416 45684 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:54:26,334 basehttp 66416 45684 "GET /static/css/stylesheet.css HTTP/1.1" 200 3097
+INFO 2024-04-04 17:54:38,374 basehttp 66416 71764 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 17:54:38,405 basehttp 66416 71764 "GET /static/css/stylesheet.css HTTP/1.1" 200 3071
+INFO 2024-04-04 18:04:30,510 basehttp 66416 65032 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:04:30,617 basehttp 66416 65032 "GET /static/css/stylesheet.css HTTP/1.1" 200 3299
+INFO 2024-04-04 18:05:31,873 basehttp 66416 89208 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:05:31,913 basehttp 66416 89208 "GET /static/css/stylesheet.css HTTP/1.1" 200 3322
+INFO 2024-04-04 18:05:44,044 basehttp 66416 23484 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:05:44,076 basehttp 66416 23484 "GET /static/css/stylesheet.css HTTP/1.1" 200 3339
+INFO 2024-04-04 18:05:45,014 basehttp 66416 23484 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:05:45,045 basehttp 66416 23484 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:06:26,154 basehttp 66416 47192 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:06:26,188 basehttp 66416 47192 "GET /static/css/stylesheet.css HTTP/1.1" 200 3348
+INFO 2024-04-04 18:06:37,825 basehttp 66416 23380 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:06:37,858 basehttp 66416 23380 "GET /static/css/stylesheet.css HTTP/1.1" 200 3371
+INFO 2024-04-04 18:06:46,318 basehttp 66416 23380 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:06:46,351 basehttp 66416 23380 "GET /static/css/stylesheet.css HTTP/1.1" 200 3371
+INFO 2024-04-04 18:07:13,974 basehttp 66416 82224 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:07:14,007 basehttp 66416 82224 "GET /static/css/stylesheet.css HTTP/1.1" 200 3403
+INFO 2024-04-04 18:08:08,452 basehttp 66416 28476 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:08:08,487 basehttp 66416 28476 "GET /static/css/stylesheet.css HTTP/1.1" 200 3652
+INFO 2024-04-04 18:08:20,692 basehttp 66416 47920 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:08:20,729 basehttp 66416 47920 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:09:02,034 basehttp 66416 13572 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:09:02,066 basehttp 66416 13572 "GET /static/css/stylesheet.css HTTP/1.1" 200 3648
+INFO 2024-04-04 18:10:22,221 basehttp 66416 17032 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:10:22,257 basehttp 66416 17032 "GET /static/css/stylesheet.css HTTP/1.1" 200 3625
+INFO 2024-04-04 18:10:45,323 basehttp 66416 12612 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:10:45,355 basehttp 66416 12612 "GET /static/css/stylesheet.css HTTP/1.1" 200 3799
+INFO 2024-04-04 18:11:13,317 basehttp 66416 44244 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:11:13,382 basehttp 66416 44244 "GET /static/css/stylesheet.css HTTP/1.1" 200 3701
+INFO 2024-04-04 18:11:31,398 basehttp 66416 9408 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:11:31,434 basehttp 66416 9408 "GET /static/css/stylesheet.css HTTP/1.1" 200 3696
+INFO 2024-04-04 18:11:42,129 basehttp 66416 60212 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:11:42,159 basehttp 66416 60212 "GET /static/css/stylesheet.css HTTP/1.1" 200 3677
+INFO 2024-04-04 18:11:50,536 basehttp 66416 57212 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:11:50,563 basehttp 66416 57212 "GET /static/css/stylesheet.css HTTP/1.1" 200 3696
+INFO 2024-04-04 18:12:41,142 basehttp 66416 64176 "GET /client/74/products/month HTTP/1.1" 200 5920
+INFO 2024-04-04 18:12:41,192 basehttp 66416 64176 "GET /static/css/stylesheet.css HTTP/1.1" 200 3761
+INFO 2024-04-04 18:12:57,452 basehttp 66416 42728 "GET /client/74/products/month HTTP/1.1" 200 6776
+INFO 2024-04-04 18:12:57,484 basehttp 66416 42728 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:13:57,553 basehttp 66416 88132 "GET /client/74/products/month HTTP/1.1" 200 6776
+INFO 2024-04-04 18:13:57,590 basehttp 66416 88132 "GET /static/css/stylesheet.css HTTP/1.1" 200 3810
+INFO 2024-04-04 18:16:06,411 basehttp 66416 77032 "GET /client/74/products/month HTTP/1.1" 200 6776
+INFO 2024-04-04 18:16:06,462 basehttp 66416 77032 "GET /static/css/stylesheet.css HTTP/1.1" 200 3860
+INFO 2024-04-04 18:17:12,573 basehttp 66416 87744 "GET /client/74/products/month HTTP/1.1" 200 6776
+INFO 2024-04-04 18:17:12,608 basehttp 66416 87744 "GET /static/css/stylesheet.css HTTP/1.1" 200 3829
+INFO 2024-04-04 18:19:52,134 basehttp 66416 53072 "GET /client/74/products/month HTTP/1.1" 200 7048
+INFO 2024-04-04 18:19:52,219 basehttp 66416 53072 "GET /static/css/stylesheet.css HTTP/1.1" 200 3876
+INFO 2024-04-04 18:20:07,852 basehttp 66416 65376 "GET /client/74/products/month HTTP/1.1" 200 7048
+INFO 2024-04-04 18:20:07,882 basehttp 66416 65376 "GET /static/css/stylesheet.css HTTP/1.1" 200 3876
+INFO 2024-04-04 18:20:17,588 basehttp 66416 59024 "GET /client/74/products/month HTTP/1.1" 200 7048
+INFO 2024-04-04 18:20:17,614 basehttp 66416 59024 "GET /static/css/stylesheet.css HTTP/1.1" 200 3876
+INFO 2024-04-04 18:20:48,375 basehttp 66416 77972 "GET /client/74/products/month HTTP/1.1" 200 7048
+INFO 2024-04-04 18:20:48,407 basehttp 66416 77972 "GET /static/css/stylesheet.css HTTP/1.1" 200 3877
+INFO 2024-04-04 18:27:43,684 autoreload 22104 65136 Watching for file changes with StatReloader
+INFO 2024-04-04 18:27:46,565 basehttp 22104 36252 "GET /client/74/products/month HTTP/1.1" 200 7048
+INFO 2024-04-04 18:27:46,665 basehttp 22104 36252 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:27:54,732 basehttp 22104 60076 "GET /client/74/products/all HTTP/1.1" 200 8532
+ERROR 2024-04-04 18:29:46,722 log 22104 22876 Internal Server Error: /client/74/products/all
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 53, in products
+    return render(request, "shopapp/products.html", {"filters": filters, "products": product_list_unique, "client": client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'product.get_summary()'
+ERROR 2024-04-04 18:29:46,742 basehttp 22104 22876 "GET /client/74/products/all HTTP/1.1" 500 205750
+INFO 2024-04-04 18:29:56,273 basehttp 22104 79344 "GET /client/74/products/all HTTP/1.1" 200 8532
+INFO 2024-04-04 18:29:56,316 basehttp 22104 79344 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:30:04,472 basehttp 22104 84684 "GET /client/74/products/all HTTP/1.1" 200 8532
+INFO 2024-04-04 18:31:13,446 autoreload 22104 65136 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 18:31:14,681 autoreload 26144 24908 Watching for file changes with StatReloader
+INFO 2024-04-04 18:31:15,040 basehttp 26144 25068 "GET /client/74/products/all HTTP/1.1" 200 8332
+INFO 2024-04-04 18:31:15,133 basehttp 26144 25068 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:31:32,906 autoreload 26144 24908 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 18:31:33,734 autoreload 16176 36012 Watching for file changes with StatReloader
+INFO 2024-04-04 18:33:34,707 autoreload 16176 36012 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 18:33:36,454 autoreload 81360 9124 Watching for file changes with StatReloader
+INFO 2024-04-04 18:33:36,706 basehttp 81360 35384 "GET /client/74/products/all HTTP/1.1" 200 8532
+INFO 2024-04-04 18:33:36,866 basehttp 81360 35384 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:37:31,593 autoreload 61740 18384 Watching for file changes with StatReloader
+INFO 2024-04-04 18:37:36,093 basehttp 61740 64184 "GET /client/74/products/all HTTP/1.1" 200 8464
+INFO 2024-04-04 18:37:36,199 basehttp 61740 64184 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:38:55,618 autoreload 51356 73524 Watching for file changes with StatReloader
+INFO 2024-04-04 18:38:58,880 basehttp 51356 63000 "GET /client/74/products/all HTTP/1.1" 200 8465
+INFO 2024-04-04 18:40:16,612 basehttp 51356 53428 "GET /client/74/products/all HTTP/1.1" 200 8465
+INFO 2024-04-04 18:40:16,775 basehttp 51356 53428 "GET /static/css/stylesheet.css HTTP/1.1" 200 3895
+INFO 2024-04-04 18:42:47,284 basehttp 51356 70276 "GET /client/74/products/all HTTP/1.1" 200 9125
+INFO 2024-04-04 18:42:47,431 basehttp 51356 70276 "GET /static/css/stylesheet.css HTTP/1.1" 200 3915
+INFO 2024-04-04 18:43:17,470 basehttp 51356 6620 "GET /client/74/products/all HTTP/1.1" 200 9125
+INFO 2024-04-04 18:43:17,503 basehttp 51356 6620 "GET /static/css/stylesheet.css HTTP/1.1" 200 3916
+INFO 2024-04-04 18:43:19,366 basehttp 51356 6620 "GET /client/74/products/all HTTP/1.1" 200 9125
+INFO 2024-04-04 18:43:19,401 basehttp 51356 6620 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:44:25,532 basehttp 51356 70504 "GET /client/74/products/all HTTP/1.1" 200 9125
+INFO 2024-04-04 18:44:25,561 basehttp 51356 70504 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:45:38,715 basehttp 51356 85468 "GET /client/74/products/all HTTP/1.1" 200 9185
+INFO 2024-04-04 18:45:38,717 basehttp 51356 81508 - Broken pipe from ('127.0.0.1', 57633)
+INFO 2024-04-04 18:45:38,867 basehttp 51356 85468 "GET /static/css/stylesheet.css HTTP/1.1" 200 3957
+INFO 2024-04-04 18:46:00,219 basehttp 51356 53128 "GET /client/74/products/all HTTP/1.1" 200 9185
+INFO 2024-04-04 18:46:00,249 basehttp 51356 53128 "GET /static/css/stylesheet.css HTTP/1.1" 200 3988
+INFO 2024-04-04 18:47:54,176 basehttp 51356 20200 "GET /client/74/products/all HTTP/1.1" 200 9185
+INFO 2024-04-04 18:47:54,223 basehttp 51356 20200 "GET /static/css/stylesheet.css HTTP/1.1" 200 3988
+INFO 2024-04-04 18:48:31,058 autoreload 77788 46748 Watching for file changes with StatReloader
+INFO 2024-04-04 18:48:34,112 basehttp 77788 68096 "GET /client/74/products/all HTTP/1.1" 200 9195
+INFO 2024-04-04 18:48:34,148 basehttp 77788 68096 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:53:51,956 autoreload 77788 46748 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 18:57:50,594 autoreload 86396 81740 Watching for file changes with StatReloader
+INFO 2024-04-04 18:57:51,261 basehttp 86396 26212 "GET /client/74/products/all HTTP/1.1" 200 9281
+INFO 2024-04-04 18:57:51,383 basehttp 86396 26212 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 18:57:52,876 basehttp 86396 26212 "GET /client/74/products/all HTTP/1.1" 200 9281
+INFO 2024-04-04 18:57:56,590 basehttp 86396 33744 "GET /client/74/products/all HTTP/1.1" 200 9281
+INFO 2024-04-04 19:16:45,467 autoreload 86396 81740 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 19:16:46,934 autoreload 80736 88600 Watching for file changes with StatReloader
+INFO 2024-04-04 19:18:06,351 autoreload 80736 88600 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 19:18:07,260 autoreload 71356 83300 Watching for file changes with StatReloader
+INFO 2024-04-04 19:26:23,053 autoreload 71356 83300 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 19:26:24,547 autoreload 89792 46156 Watching for file changes with StatReloader
+INFO 2024-04-04 19:27:31,819 autoreload 89792 46156 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 19:27:33,007 autoreload 16984 32152 Watching for file changes with StatReloader
+INFO 2024-04-04 19:44:05,367 autoreload 43264 69736 Watching for file changes with StatReloader
+ERROR 2024-04-04 19:44:09,516 log 43264 70308 Internal Server Error: /client/74/products/all
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 53, in products
+    return render(request, "shopapp/products.html", {"filters": filters, "products": product_list_unique, "client": client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py", line 57, in get_summary
+    text_long = text_split[i - 1][count:]
+                           ^
+UnboundLocalError: cannot access local variable 'i' where it is not associated with a value
+ERROR 2024-04-04 19:44:09,526 basehttp 43264 70308 "GET /client/74/products/all HTTP/1.1" 500 217548
+INFO 2024-04-04 19:45:24,158 autoreload 43264 69736 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 19:45:25,338 autoreload 22104 68860 Watching for file changes with StatReloader
+ERROR 2024-04-04 19:45:28,970 log 22104 89676 Internal Server Error: /client/74/products/all
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 53, in products
+    return render(request, "shopapp/products.html", {"filters": filters, "products": product_list_unique, "client": client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py", line 57, in get_summary
+    text_long = text_split[i - 1][count:]
+                           ^
+UnboundLocalError: cannot access local variable 'i' where it is not associated with a value
+ERROR 2024-04-04 19:45:28,979 basehttp 22104 89676 "GET /client/74/products/all HTTP/1.1" 500 217495
+ERROR 2024-04-04 19:45:35,279 log 22104 89676 Internal Server Error: /client/74/products/all
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 53, in products
+    return render(request, "shopapp/products.html", {"filters": filters, "products": product_list_unique, "client": client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py", line 57, in get_summary
+    text_long = text_split[i - 1][count:]
+                           ^
+UnboundLocalError: cannot access local variable 'i' where it is not associated with a value
+ERROR 2024-04-04 19:45:35,288 basehttp 22104 89676 "GET /client/74/products/all HTTP/1.1" 500 217495
+ERROR 2024-04-04 19:45:36,534 log 22104 89676 Internal Server Error: /client/74/products/all
+Traceback (most recent call last):
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py", line 53, in products
+    return render(request, "shopapp/products.html", {"filters": filters, "products": product_list_unique, "client": client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\.venv\Lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py", line 57, in get_summary
+    text_long = text_split[i - 1][count:]
+                           ^
+UnboundLocalError: cannot access local variable 'i' where it is not associated with a value
+ERROR 2024-04-04 19:45:36,545 basehttp 22104 89676 "GET /client/74/products/all HTTP/1.1" 500 217495
+INFO 2024-04-04 19:47:05,860 autoreload 22104 68860 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\models.py changed, reloading.
+INFO 2024-04-04 19:47:06,740 autoreload 82348 66536 Watching for file changes with StatReloader
+INFO 2024-04-04 19:47:09,686 basehttp 82348 67232 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:47:09,778 basehttp 82348 67232 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:49:46,822 basehttp 82348 22452 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:49:50,625 basehttp 82348 38936 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:49:52,048 basehttp 82348 38936 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:49:56,384 basehttp 82348 38936 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:50:05,694 basehttp 82348 57012 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:50:15,886 basehttp 82348 17032 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:50:16,027 basehttp 82348 17032 "GET /static/css/stylesheet.css HTTP/1.1" 200 3979
+INFO 2024-04-04 19:50:51,563 basehttp 82348 4064 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:50:51,604 basehttp 82348 4064 "GET /static/css/stylesheet.css HTTP/1.1" 200 3988
+INFO 2024-04-04 19:52:01,294 basehttp 82348 12592 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:52:01,329 basehttp 82348 12592 "GET /static/css/stylesheet.css HTTP/1.1" 200 4014
+INFO 2024-04-04 19:52:18,059 basehttp 82348 50364 "GET /client/74/products/week HTTP/1.1" 200 6983
+INFO 2024-04-04 19:52:18,107 basehttp 82348 50364 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:52:18,801 basehttp 82348 50364 "GET /client/74/products/month HTTP/1.1" 200 7758
+INFO 2024-04-04 19:52:19,877 basehttp 82348 50364 "GET /client/74/products/year HTTP/1.1" 200 8535
+INFO 2024-04-04 19:52:19,926 basehttp 82348 50364 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:52:20,797 basehttp 82348 50364 "GET /client/74/products/week HTTP/1.1" 200 6983
+INFO 2024-04-04 19:52:21,394 basehttp 82348 50364 "GET /client/74/products/all HTTP/1.1" 200 9415
+INFO 2024-04-04 19:52:21,433 basehttp 82348 50364 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 19:52:21,883 basehttp 82348 50364 "GET /client/74/products/month HTTP/1.1" 200 7758
+INFO 2024-04-04 19:52:22,347 basehttp 82348 50364 "GET /client/74/products/year HTTP/1.1" 200 8535
+INFO 2024-04-04 20:00:25,982 basehttp 82348 53360 "GET /client/74/products/year HTTP/1.1" 200 8759
+INFO 2024-04-04 20:00:26,058 basehttp 82348 53360 "GET /static/css/stylesheet.css HTTP/1.1" 200 4671
+INFO 2024-04-04 20:00:30,706 basehttp 82348 53360 "GET /client/74/products HTTP/1.1" 200 1717
+INFO 2024-04-04 20:00:30,751 basehttp 82348 53360 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:00:32,625 basehttp 82348 53360 "GET /client/74/products/all HTTP/1.1" 200 9639
+INFO 2024-04-04 20:00:32,681 basehttp 82348 53360 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:00:36,651 basehttp 82348 22804 "GET /client/74/products/week HTTP/1.1" 200 7207
+INFO 2024-04-04 20:00:36,704 basehttp 82348 22804 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:00:37,541 basehttp 82348 22804 "GET /client/74/products/month HTTP/1.1" 200 7982
+INFO 2024-04-04 20:00:37,586 basehttp 82348 22804 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:00:38,130 basehttp 82348 22804 "GET /client/74/products/year HTTP/1.1" 200 8759
+INFO 2024-04-04 20:00:39,056 basehttp 82348 22804 "GET /client/74/products/all HTTP/1.1" 200 9639
+INFO 2024-04-04 20:00:39,102 basehttp 82348 22804 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:00:39,460 basehttp 82348 22804 "GET /client/74/products/month HTTP/1.1" 200 7982
+INFO 2024-04-04 20:00:39,897 basehttp 82348 22804 "GET /client/74/products/year HTTP/1.1" 200 8759
+INFO 2024-04-04 20:00:45,166 basehttp 82348 85820 "GET /client/74/products/all HTTP/1.1" 200 9639
+INFO 2024-04-04 20:00:45,219 basehttp 82348 85820 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:00:45,654 basehttp 82348 85820 "GET /client/74/products HTTP/1.1" 200 1717
+INFO 2024-04-04 20:00:47,320 basehttp 82348 85820 "GET /client/74/products/month HTTP/1.1" 200 7982
+INFO 2024-04-04 20:00:47,369 basehttp 82348 85820 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:01:18,263 basehttp 82348 85088 "GET /client/74/products/month HTTP/1.1" 200 7982
+INFO 2024-04-04 20:01:18,302 basehttp 82348 85088 "GET /static/css/stylesheet.css HTTP/1.1" 200 4671
+INFO 2024-04-04 20:01:19,637 basehttp 82348 85088 "GET /client/74/products HTTP/1.1" 200 1717
+INFO 2024-04-04 20:01:19,693 basehttp 82348 85088 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:01:20,721 basehttp 82348 28260 "GET /client/74/products/all HTTP/1.1" 200 9639
+INFO 2024-04-04 20:01:20,780 basehttp 82348 28260 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:01:50,614 basehttp 82348 77888 "GET /client/73/products/all HTTP/1.1" 200 9637
+INFO 2024-04-04 20:01:50,667 basehttp 82348 77888 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:01:59,785 basehttp 82348 77888 "GET /client/74/products/all HTTP/1.1" 200 9639
+INFO 2024-04-04 20:01:59,831 basehttp 82348 77888 "GET /static/css/stylesheet.css HTTP/1.1" 304 0

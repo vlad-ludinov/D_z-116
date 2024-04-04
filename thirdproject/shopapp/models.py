@@ -24,8 +24,59 @@ class Product(models.Model):
         return f"Name: {self.name}, price: {self.price}, quantity: {self.quantity}, date: {self.date}"
 
     def get_summary(self):
-        text = self.description.split()
-        return f"{' '.join(text[:5])}"
+        text = self.description
+        text_split = text.split()
+        text_str = ""
+        text_count = 0
+        if len(text) > 30:
+            for i in range(1, len(text_split)):
+                if len(text_split[i-1]) > 30:
+                    text_long = text_split[i-1]
+                    while (len(text_long) > 30):
+                        count = 29 - text_count
+                        text_str += f"{text_long[:count]}-\n"
+                        text_count = 0
+                        text_long = text_long[count:]
+                    text_str += text_long
+                    text_count = len(text_long)
+                else:
+                    text_count += len(text_split[i-1])
+                    text_str += text_split[i-1]
+                if text_count + 1 + len(text_split[i]) > 30:
+                    text_str +="\n"
+                    text_count = 0
+                else:
+                    text_str += " "
+                    text_count += 1
+            if len(text_split[-1]) > 30:
+                text_long = text_split[-1]
+                while (len(text_long) > 30):
+                    count = 29 - text_count
+                    text_str += f"{text_long[:count]}-\n"
+                    text_count = 0
+                    text_long = text_long[count:]
+                text_str += text_long
+                text_count = len(text_long)
+            elif text_count + 1 + len(text_split[-1]) > 30:
+                text_str += f"\n{text_split[-1]}"
+            else:
+                text_str += text_split[-1]
+        else:
+            text_str = text
+        return text_str
+
+
+
+
+
+        # if len(text) > 30:
+        #     for start in range(0, len(text), 30):
+        #         text_split.append(text[start:start + 30])
+        #     text_str = "-\n".join(text_split)
+        # else:
+        #     text_str = text
+        print(text_str)
+        return text_str
 
 
 class Order(models.Model):

@@ -3,7 +3,8 @@
 {% block title %}{{ client.name }}{% endblock %}
 
 {% block content %}
-    <div class="container">
+<body class="body__clients">
+    <div class="container__client">
         <div class="client__container">
             <div class="client__container2">
                 <div class="client__name">
@@ -14,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="filter__container1">
+        <div class="filter1__container">
                 {% for filter in filters %}
                 <div class="filter__client">
                     <a class="button__client" href="{% url 'products' client.id filter %}">{{ filter }}</a>
@@ -25,4 +26,5 @@
                 {% endfor %}
         </div>
     </div>
+</body>
 {% endblock %}

@@ -3,26 +3,48 @@
 {% block title %}{{ client.name }}'s Products{% endblock %}
 
 {% block content %}
-    <div>
-        <ul>
-            {% for filter in filters %}
-            <li>
-                <a href="{% url 'products' client.id filter %}">{{ filter }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <div>
-        {% for product in products %}
-            <div>
-                {{ product.name }}
+<body class="body__products">
+    <div class="container__products">
+        <div class="dop__container">
+            <div class="dop1__container">
+                <div class="back__client">
+                    <a class="button__back" href="{% url 'client' client.id %}">Back to client {{ client.name }}</a>
+                </div>
             </div>
-            <table>
-                <tr><td>price</td><td>{{ product.price }}</td></tr>
-                <tr><td>quantity</td><td>{{ product.quantity }}</td></tr>
-                <tr><td>date</td><td>{{ product.date }}</td></tr>
-                <tr><td>description</td><td>{{ product.description }}</td></tr>
-            </table>
-        {% endfor %}
+            <div class="dop2__container">
+            <div class="filter2__container">
+                {% for filter in filters %}
+                <div class="filter__client">
+                    <a class="button__client" href="{% url 'products' client.id filter %}">{{ filter }}</a>
+                </div>
+                <div class="text__client">
+                    text
+                </div>
+                {% endfor %}
+            </div>
+            </div>
+            <div class="dop3__container">
+            <div class="products__container">
+                {% for product in products %}
+                    <div class="title__name">
+                        {{ product.name }}
+                    </div>
+                    <div class="text1__products">
+                        text
+                    </div>
+                    <table>
+                        <tr><th>price</th><th class="right__column">{{ product.price }}</th></tr>
+                        <tr><td>quantity</td><td class="right__column">{{ product.quantity }}</td></tr>
+                        <tr><td>date</td><td class="right__column">{{ product.date }}</td></tr>
+                        <tr><td class="last__td">description</td><td class="last__tdcolumn">{{ product.get_summary }}</td></tr>
+                    </table>
+                    <div class="text2__products">
+                        text
+                    </div>
+                {% endfor %}
+            </div>
+            </div>
+        </div>
     </div>
+</body>
 {% endblock %}
