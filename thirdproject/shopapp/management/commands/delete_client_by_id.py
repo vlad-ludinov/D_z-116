@@ -6,7 +6,7 @@ class Command(BaseCommand):
     help = "Delete client by id"
 
     def add_arguments(self, parser):
-        parser.add_argument("pk", type=int, help="Client ID and range ID (id-id)")
+        parser.add_argument("pk", type=int, help="Client ID")
 
     def handle(self, *args, **options):
         pk = options.get("pk")

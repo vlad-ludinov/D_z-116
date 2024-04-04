@@ -35,17 +35,29 @@ def products(request, client_id, filter):
         filters = ["all", "week", "month"]
     products_list = []
     client = Client.objects.filter(pk=client_id).first()
-    # orders = Order.objects.filter(Q(client=client)|Q(date__lt=date.today()-time_filter)).all() #.filter(date__lt=date.today()-time_filter).all()
-    orders = Order.objects.filter(client=client).all()
     if filter == "all":
+        orders = Order.objects.filter(client=client).all()
         for order in orders:
             for product in order.product.all():
                 products_list.append(product)
         filters = ["week", "month", "year"]
     else:
+        orders = Order.objects.filter(Q(client=client) & Q(date__gt=date.today()-time_filter)).all() #.filter(date__lt=date.today()-time_filter).all()
+        print(orders)
+        print(date.today()-time_filter)
         for order in orders:
-            for product in order.product.filter(date__gt=date.today()-time_filter).all():
+            for product in order.product.all():
                 products_list.append(product)
+    # orders = Order.objects.filter(client=client).all()
+    # if filter == "all":
+    #     for order in orders:
+    #         for product in order.product.all():
+    #             products_list.append(product)
+    #     filters = ["week", "month", "year"]
+    # else:
+    #     for order in orders:
+    #         for product in order.product.filter(date__gt=date.today()-time_filter).all():
+    #             products_list.append(product)
     product_list_unique = []
     for product in products_list:
         if product not in product_list_unique:

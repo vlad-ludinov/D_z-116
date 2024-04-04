@@ -1386,3 +1386,45 @@ INFO 2024-04-04 20:01:50,614 basehttp 82348 77888 "GET /client/73/products/all H
 INFO 2024-04-04 20:01:50,667 basehttp 82348 77888 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
 INFO 2024-04-04 20:01:59,785 basehttp 82348 77888 "GET /client/74/products/all HTTP/1.1" 200 9639
 INFO 2024-04-04 20:01:59,831 basehttp 82348 77888 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:40:36,106 autoreload 14012 36972 Watching for file changes with StatReloader
+INFO 2024-04-04 20:40:46,948 basehttp 14012 74588 "GET /client/75/products/all HTTP/1.1" 200 8859
+INFO 2024-04-04 20:40:47,094 basehttp 14012 74588 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:40:48,657 basehttp 14012 74588 "GET /client/75/products HTTP/1.1" 200 1710
+INFO 2024-04-04 20:40:50,569 basehttp 14012 20808 "GET /client/75/products/all HTTP/1.1" 200 8859
+INFO 2024-04-04 20:41:24,853 basehttp 14012 54656 "GET /client/75/products/week HTTP/1.1" 200 8857
+INFO 2024-04-04 20:41:31,353 basehttp 14012 54656 "GET /client/75/products/year HTTP/1.1" 200 8857
+INFO 2024-04-04 20:48:17,728 autoreload 50876 60396 Watching for file changes with StatReloader
+INFO 2024-04-04 20:48:21,204 basehttp 50876 41780 "GET /client/75/products/year HTTP/1.1" 200 5754
+INFO 2024-04-04 20:48:21,556 basehttp 50876 41780 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:48:27,637 basehttp 50876 41780 "GET /client/75/products/all HTTP/1.1" 200 5756
+INFO 2024-04-04 20:48:58,462 autoreload 15072 87316 Watching for file changes with StatReloader
+INFO 2024-04-04 20:49:14,584 basehttp 15072 31952 "GET /client/75/products/year HTTP/1.1" 200 5754
+INFO 2024-04-04 20:49:54,247 autoreload 15072 87316 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-04 20:49:55,141 autoreload 12220 85316 Watching for file changes with StatReloader
+INFO 2024-04-04 20:49:57,919 basehttp 12220 89336 "GET /client/75/products/year HTTP/1.1" 200 5754
+INFO 2024-04-04 20:50:30,143 autoreload 12220 85316 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-04 20:50:31,289 autoreload 42728 68728 Watching for file changes with StatReloader
+INFO 2024-04-04 20:50:34,283 basehttp 42728 24004 "GET /client/75/products/year HTTP/1.1" 200 5754
+INFO 2024-04-04 20:50:39,260 basehttp 42728 24004 "GET /client/75/products/year HTTP/1.1" 200 5754
+INFO 2024-04-04 20:52:03,387 autoreload 42728 68728 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-04 20:52:04,227 autoreload 26324 85532 Watching for file changes with StatReloader
+INFO 2024-04-04 20:52:08,123 basehttp 26324 87812 "GET /client/75/products/year HTTP/1.1" 200 5754
+INFO 2024-04-04 20:52:48,428 autoreload 26324 85532 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-04 20:52:49,123 autoreload 88576 64820 Watching for file changes with StatReloader
+INFO 2024-04-04 20:52:51,995 basehttp 88576 81252 "GET /client/75/products/year HTTP/1.1" 200 5754
+INFO 2024-04-04 20:52:54,830 basehttp 88576 81252 "GET /client/75/products/year HTTP/1.1" 200 5754
+INFO 2024-04-04 20:52:56,420 basehttp 88576 16308 "GET /client/75/products/week HTTP/1.1" 200 5754
+INFO 2024-04-04 20:54:31,583 autoreload 88576 64820 C:\Users\nonna\Desktop\програмирование\Д.з. влада\Д_з №116\D_z-116\thirdproject\shopapp\views.py changed, reloading.
+INFO 2024-04-04 20:54:32,993 autoreload 78984 25760 Watching for file changes with StatReloader
+INFO 2024-04-04 20:54:36,930 basehttp 78984 79152 "GET /client/75/products/week HTTP/1.1" 200 3324
+INFO 2024-04-04 20:54:36,965 basehttp 78984 79152 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2024-04-04 20:54:40,501 basehttp 78984 79152 "GET /client/75/products/all HTTP/1.1" 200 5756
+INFO 2024-04-04 20:54:43,012 basehttp 78984 79152 "GET /client/75/products/year HTTP/1.1" 200 4978
+INFO 2024-04-04 20:55:27,627 basehttp 78984 46744 "GET /client/75/products/month HTTP/1.1" 200 4200
+INFO 2024-04-04 20:55:33,222 basehttp 78984 46744 "GET /client/75/products/week HTTP/1.1" 200 3324
+INFO 2024-04-04 20:55:38,607 basehttp 78984 77548 "GET /client/75/products/year HTTP/1.1" 200 4978
+INFO 2024-04-04 20:55:41,409 basehttp 78984 77548 "GET /client/75/products HTTP/1.1" 200 1710
+INFO 2024-04-04 20:55:42,387 basehttp 78984 77548 "GET /client/75/products/all HTTP/1.1" 200 5756
+INFO 2024-04-04 20:55:45,140 basehttp 78984 77548 "GET /client/75/products HTTP/1.1" 200 1710
+INFO 2024-04-04 20:55:46,352 basehttp 78984 65876 "GET /client/75/products/year HTTP/1.1" 200 4978
+INFO 2024-04-04 20:55:49,764 basehttp 78984 65876 "GET /client/75/products/all HTTP/1.1" 200 5756
